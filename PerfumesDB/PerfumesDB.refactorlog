@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2c5f4c5c-4c91-40b4-9946-598cf628c7fc" ChangeDateTime="04/22/2022 10:53:30">
+    <Property Name="ElementName" Value="[dbo].[Perfumes].[PerfumeName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Perfumes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3366f05f-cf30-4a4e-8db7-03262a24c545" ChangeDateTime="04/22/2022 10:53:33">
+    <Property Name="ElementName" Value="[dbo].[Perfumes].[BrandName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Perfumes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Brand" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e28a9c97-7c26-4139-b41f-301c5c5f3cb0" ChangeDateTime="04/22/2022 10:53:50">
+    <Property Name="ElementName" Value="[dbo].[Perfumes].[Brand]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Perfumes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Designer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0423dbf3-f8bf-449a-acfd-4d2599bad978" ChangeDateTime="04/22/2022 10:56:59">
+    <Property Name="ElementName" Value="[dbo].[Perfumes].[Creator]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Perfumes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Perfumer" />
+  </Operation>
+</Operations>
