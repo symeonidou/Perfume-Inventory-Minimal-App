@@ -26,7 +26,7 @@ public class PerfumeData : IPerfumeData
         _db.SaveData("dbo.spPerfume_Insert",
             new { perfume.Name, perfume.Designer, perfume.Perfumer, perfume.Launched, perfume.Description });
 
-    public Task UpdateUser(PerfumeModel perfume) =>
+    public Task UpdatePerfume(PerfumeModel perfume) =>
         _db.SaveData("dbo.spPerfume_Update", perfume);
 
     public Task DeletePerfume(int id) =>

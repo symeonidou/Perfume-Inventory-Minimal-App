@@ -8,5 +8,5 @@ public interface IPerfumeData
     Task<PerfumeModel?> GetPerfume(int id);
     Task<IEnumerable<PerfumeModel>> GetPerfumes();
     Task InsertPerfume(PerfumeModel perfume);
-    Task UpdateUser(PerfumeModel perfume);
+    Task UpdatePerfume(PerfumeModel perfume);
 }
