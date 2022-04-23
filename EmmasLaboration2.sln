@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfumesInventoryAPI", "Emm
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PerfumesDB", "PerfumesDB\PerfumesDB.sqlproj", "{1D48386D-BD1C-42A6-981B-12A5DBF78E47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{CCEC2D85-6F47-41D9-A613-158067F125ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{1D48386D-BD1C-42A6-981B-12A5DBF78E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D48386D-BD1C-42A6-981B-12A5DBF78E47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D48386D-BD1C-42A6-981B-12A5DBF78E47}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CCEC2D85-6F47-41D9-A613-158067F125ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEC2D85-6F47-41D9-A613-158067F125ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEC2D85-6F47-41D9-A613-158067F125ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEC2D85-6F47-41D9-A613-158067F125ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
