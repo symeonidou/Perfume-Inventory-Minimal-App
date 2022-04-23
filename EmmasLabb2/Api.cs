@@ -7,7 +7,9 @@ public static class Api
         //All of my API endpoint mapping
         app.MapGet("/Perfumes", GetPerfumes);
         app.MapGet("/Perfumes/{id}", GetPerfume);
-
+        app.MapPost("/Perfumes", InsertPerfume);
+        app.MapPut("/Perfumes", UpdatePerfume);
+        app.MapDelete("/Perfumes", DeletePerfume);
     }
 
     private static async Task<IResult> GetPerfumes(IPerfumeData data)
