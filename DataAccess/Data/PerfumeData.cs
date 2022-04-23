@@ -2,7 +2,7 @@
 using DataAccess.Models;
 
 namespace DataAccess.Data;
-public class PerfumeData
+public class PerfumeData : IPerfumeData
 {
     private readonly ISqlDataAccess _db;
 
@@ -11,7 +11,7 @@ public class PerfumeData
         _db = db;
     }
 
-    public Task<IEnumerable<PerfumeModel>> GetPerfumes() => 
+    public Task<IEnumerable<PerfumeModel>> GetPerfumes() =>
         _db.LoadData<PerfumeModel, dynamic>(
             "dbo.spPerfume_GetAll", new { });
 
